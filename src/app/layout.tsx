@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { AuthProvider } from "@/components/AuthProvider";
 import MobileBottomNav from "@/components/MobileBottomNav"; // ← SHU QATORNI QO'SHING
+import RealTimeClock from "@/components/RealTimeClock"; // ← YANGI QO'SHILDI
 
 const inter = Inter({ 
   subsets: ["latin"],
@@ -39,6 +40,7 @@ export default function RootLayout({
         <AuthProvider>
           {children}
           <MobileBottomNav />
+          <RealTimeClock />
         </AuthProvider>
       </body>
     </html>
