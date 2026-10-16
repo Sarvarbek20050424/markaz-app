@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  /* TZ 14.2: Ranglar */
+  --color-primary: #2F5597;
+  --color-secondary: #1F3864;
+  --color-background: #F5F7FB;
+  --color-surface: #FFFFFF;
+  --color-success: #2E9E5B;
+  --color-danger: #D64550;
+  --color-warning: #F0A202;
+  --color-textMain: #1E2430;
+  --color-textMuted: #6B7385;
+  
+  /* TZ 14.3: Shrift va burchaklar */
+  --font-sans: 'Inter', 'Roboto', 'Arial', sans-serif;
+  --radius-card: 12px;
+}
+
+/* TZ 14.1: Toza, ochiq fon */
+body {
+  background-color: var(--color-background);
+  color: var(--color-textMain);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Telefonda bosish uchun qulaylik (TZ 14.3) */
+button, a {
+  transition: opacity 0.15s ease-in-out;
+}
+
+button:active, a:active {
+  opacity: 0.8;
+}

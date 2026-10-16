@@ -1,0 +1,22 @@
+{
+  "name": "Markaz - Davomat va Hisobot",
+  "short_name": "Markaz",
+  "description": "O'quvchilar davomati va o'zlashtirishi hisobot tizimi",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F5F7FB",
+  "theme_color": "#2F5597",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
